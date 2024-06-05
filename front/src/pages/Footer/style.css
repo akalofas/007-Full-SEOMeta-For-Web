@@ -1,0 +1,19 @@
+footer {
+    border-top: 1px solid var(--text-primary);
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.footer__container--items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__container--item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

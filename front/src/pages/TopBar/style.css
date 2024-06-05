@@ -1,0 +1,26 @@
+.topbar__section {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--primary-color); /* Use blue primary color */
+    color: var(--primary-background); /* Use white primary color */
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--primary-background);
+}
+
+.topbar__section--items {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.topbar__item {
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 1em;
+}
+
+.topbar__item:hover {
+    background-color: var(--button-hover-bg); 
+    transition: background-color 0.3s;
+}
