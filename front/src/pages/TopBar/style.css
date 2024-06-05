@@ -1,8 +1,8 @@
 .topbar__section {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--primary-color); /* Use blue primary color */
-    color: var(--primary-background); /* Use white primary color */
+    background-color: var(--primary-color);
+    color: var(--primary-background);
     padding: 10px 20px;
     border-bottom: 1px solid var(--primary-background);
 }
